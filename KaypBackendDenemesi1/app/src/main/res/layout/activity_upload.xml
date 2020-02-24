@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".uploadActivity">-->
+    <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/radiogrpid">-->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Insan"-->
+            <!--android:id="@+id/insanRadioBoxid"/>-->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Hayvan"-->
+            <!--android:id="@+id/hayvanRadioBoxid"/>-->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Esya"-->
+            <!--android:id="@+id/esyaRadioBoxid"/>-->
+    <!--</RadioGroup>-->
+    <!--<ImageView-->
+        <!--android:layout_below="@id/radiogrpid"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--app:srcCompat="@color/colorPrimary"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:id="@+id/kayipImageView"-->
+        <!--android:onClick="FotoSeçMethodu"/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Kayıp bilgisini giriniz"-->
+        <!--android:id="@+id/kayipBilgisiEditTextid"-->
+        <!--android:layout_below="@id/kayipImageView"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Sehir Giriniz"-->
+        <!--android:id="@+id/kayipSehirEditTextid"-->
+        <!--android:layout_below="@+id/kayipBilgisiEditTextid"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Semt Giriniz"-->
+        <!--android:id="@+id/kayipSemtEditTextid"-->
+        <!--android:layout_below="@+id/kayipSehirEditTextid"/>-->
+
+    <!--<Button-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="PAYLAS"-->
+        <!--android:onClick="kayibiPaylasMethod"-->
+        <!--android:id="@+id/uploadButtonid"-->
+        <!--android:layout_below="@+id/kayipSemtEditTextid"/>-->
+    <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/kayipImageView"-->
+        <!--android:layout_marginLeft="200dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:id="@+id/progressid"/>-->
+<!--</RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@color/colorPrimary"
+        android:id="@+id/kayipImageView"
+        android:onClick="FotoSeçMethodu"
+        android:src="@drawable/cameraicon"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogrpid"
+        android:layout_centerHorizontal="true">
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Insan"
+    android:id="@+id/insanRadioBoxid"/>
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Hayvan"
+    android:id="@+id/hayvanRadioBoxid"/>
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Esya"
+    android:id="@+id/esyaRadioBoxid"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıp bilgisini giriniz"
+        android:id="@+id/kayipBilgisiEditTextid"
+        android:layout_below="@id/kayipImageView"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sehir Giriniz"
+        android:id="@+id/kayipSehirEditTextid"
+        android:layout_below="@+id/kayipBilgisiEditTextid"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semt Giriniz"
+        android:id="@+id/kayipSemtEditTextid"
+        android:layout_below="@+id/kayipSehirEditTextid"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAYLAS"
+        android:onClick="kayibiPaylasMethod"
+        android:id="@+id/uploadButtonid"
+        android:layout_below="@+id/telnoEditTextid"
+        android:layout_centerHorizontal="true"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/kayipImageView"
+        android:layout_marginLeft="200dp"
+        android:visibility="invisible"
+        android:id="@+id/progressid"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numarası Giriniz"
+        android:id="@+id/telnoEditTextid"
+        android:layout_below="@+id/kayipSemtEditTextid"/>
+
+</RelativeLayout>

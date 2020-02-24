@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeid" android:title=""  android:icon="@drawable/homeicon">@color/altmenuColor</item>
+    <item android:id="@+id/plusid" android:title="" android:icon="@drawable/plusicon">@color/altmenuColor</item>
+    <item android:id="@+id/cameraid" android:title="" android:icon="@drawable/cameraicon">@color/altmenuColor</item>
+    <item android:id="@+id/myprofilid" android:title="" android:icon="@drawable/myprofil">@color/altmenuColor</item>
+</menu>

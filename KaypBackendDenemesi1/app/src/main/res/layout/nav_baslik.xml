@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/nav_view_baslik">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOŞGELDİNİZ"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/hosid"
+        android:textColor="@color/mor"
+        />
+
+</LinearLayout>

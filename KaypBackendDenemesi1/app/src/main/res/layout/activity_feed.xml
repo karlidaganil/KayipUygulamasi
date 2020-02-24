@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedActivity"
+    android:background="@color/gray">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerlayouttt">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <SearchView
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/aramaCubuk"
+                android:queryHint="ŞEHİR veya SEMT GİRİNİZ"
+                android:focusable="false"
+                android:elevation="2dp"
+                android:background="#fff"
+                android:outlineSpotShadowColor="@color/deneme"
+                style="@style/SearchAutoCompleteTextView"></SearchView>
+            <ListView
+                android:layout_below="@+id/aramaCubuk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="5dp"></ListView>
+            <android.support.design.widget.BottomNavigationView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/alt_menu"
+                app:itemIconTint="@color/altmenuColor"
+                android:id="@+id/bottomnavid"></android.support.design.widget.BottomNavigationView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:onClick="fabMethod"
+                android:src="@drawable/plusicon"
+                app:backgroundTint="@color/design_default_color_primary_dark"
+                android:layout_alignRight="@+id/listView"/>
+        </RelativeLayout>
+
+        <android.support.design.widget.NavigationView
+            app:headerLayout="@layout/nav_baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:menu="@menu/yan_menu"
+            android:layout_gravity="start"
+            android:id="@+id/navViewid"
+            app:theme="@style/NavigationDrawerStyle">
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

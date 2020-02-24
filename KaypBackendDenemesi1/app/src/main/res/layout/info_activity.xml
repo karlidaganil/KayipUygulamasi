@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:src="@color/colorAccent"
+        android:id="@+id/infoImageViewid"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paylasim ile ilgili bilgi"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/paylasimBilgisiid"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İL BİLGİSİ"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/ilBilgisiid"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semt Bilgisi"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/SemtBilgisiid"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paylasim'ı gönderen kişi"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/paylasanKisiid"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telefon numarası"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:onClick="ara"
+        android:textColor="@color/teal"
+        android:id="@+id/telNoTextViewİnfo"/>
+</LinearLayout>

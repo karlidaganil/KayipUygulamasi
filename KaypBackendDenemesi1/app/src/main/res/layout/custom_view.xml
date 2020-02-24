@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal">-->
+    <!--<ImageView-->
+        <!--android:id="@+id/kayipFotoimageViewCustomview"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--app:srcCompat="@color/common_google_signin_btn_text_dark_focused" />-->
+    <!--<LinearLayout-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="vertical">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Kullanıcı e maili"-->
+            <!--android:id="@+id/userEmailTextviewCustomView"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:textSize="15dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Kayıp bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/KayipBilgisitextViewCustomView"/>-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Sehir Bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/SehirBilgisitextViewCustomView"/>-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Semt Bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/SemtBilgisitextViewCustomView"/>-->
+    <!--</LinearLayout>-->
+<!--</LinearLayout>-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true">
+    <!--<ImageView-->
+        <!--android:id="@+id/kayipFotoimageViewCustomview"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--app:srcCompat="@color/common_google_signin_btn_text_dark_focused" />-->
+
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Kullanıcı e maili"-->
+            <!--android:id="@+id/userEmailTextviewCustomView"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:textSize="15dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_below="@+id/userEmailTextviewCustomView"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Kayıp bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/KayipBilgisitextViewCustomView"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Sehir Bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/SehirBilgisitextViewCustomView"/>-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/AlertDialog.AppCompat.Light"-->
+            <!--android:text="Semt Bilgisi"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/SemtBilgisitextViewCustomView"/>-->
+   <!--<ImageView-->
+       <!--android:layout_width="100dp"-->
+       <!--android:layout_height="100dp"-->
+       <!--android:id="@+id/kayipFotoimageViewCustomview" />-->
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/kayipFotoimageViewCustomview" />
+
+
+    <TextView
+        style="@style/CustomButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/kayipFotoimageViewCustomview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paylasan:        "
+        android:id="@+id/payText" />
+    <TextView
+        style="@style/digerSTYLE"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı e maili"
+        android:layout_toRightOf="@+id/payText"
+        android:id="@+id/userEmailTextviewCustomView"/>
+
+
+
+    <TextView
+        style="@style/CustomButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/kayipFotoimageViewCustomview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıp bilgisi:   "
+        android:id="@+id/kayText"
+        android:layout_below="@+id/payText"/>
+    <TextView
+        style="@style/digerSTYLE"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/userEmailTextviewCustomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıp Bilgisi"
+        android:layout_toRightOf="@+id/kayText"
+        android:id="@+id/KayipBilgisitextViewCustomView"/>
+
+
+    <TextView
+        style="@style/CustomButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/kayipFotoimageViewCustomview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sehir bilgisi:   "
+        android:id="@+id/sehText"
+        android:layout_below="@+id/kayText"/>
+    <TextView
+        style="@style/digerSTYLE"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/KayipBilgisitextViewCustomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sehir bilgisi"
+        android:layout_toRightOf="@+id/sehText"
+        android:id="@+id/SehirBilgisitextViewCustomView"/>
+
+
+    <TextView
+        style="@style/CustomButtonStyle"
+        android:layout_toRightOf="@+id/kayipFotoimageViewCustomview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semt bilgisi:   "
+        android:id="@+id/semText"
+        android:layout_below="@+id/sehText"/>
+    <TextView
+        style="@style/digerSTYLE"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/SehirBilgisitextViewCustomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semt Bilgisi"
+        android:layout_toRightOf="@+id/semText"
+        android:id="@+id/SemtBilgisitextViewCustomView"/>
+
+
+
+</RelativeLayout>

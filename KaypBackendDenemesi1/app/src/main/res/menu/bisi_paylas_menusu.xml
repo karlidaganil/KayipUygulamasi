@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bisiPaylasTusuid" android:title="Kayıp Paylaş"></item>
+    <item android:id="@+id/bişiBuldumTusuid" android:title="Bişi Buldum"></item>
+    <item android:id="@+id/logOutid" android:title="çıkıs yap"></item>
+</menu>

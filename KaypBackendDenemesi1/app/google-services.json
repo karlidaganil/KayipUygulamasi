@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "526438657502",
+    "firebase_url": "https://kayipbackenddenemesi1.firebaseio.com",
+    "project_id": "kayipbackenddenemesi1",
+    "storage_bucket": "kayipbackenddenemesi1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526438657502:android:f56af72ae8448f3c",
+        "android_client_info": {
+          "package_name": "com.example.kaypbackenddenemesi1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526438657502-nb4479trpa79lv0jpncqn16c3bvnl6vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaypbackenddenemesi1",
+            "certificate_hash": "cb861e6bfdf7890f2c2d3b2de74c15669515382f"
+          }
+        },
+        {
+          "client_id": "526438657502-48ofgan4q6j6cmhd46bgin0p2uu9rlgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3QLy3iuGraALlI-BxKiWPWTJz1QI9MQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526438657502-48ofgan4q6j6cmhd46bgin0p2uu9rlgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

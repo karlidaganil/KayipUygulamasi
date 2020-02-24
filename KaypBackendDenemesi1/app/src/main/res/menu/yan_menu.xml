@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/ilkYanMenuİtemid" android:title="Kayıp Ilanları" ></item>-->
+    <!--&lt;!&ndash;<item android:id="@+id/yanMenuinsanid" android:title="İnsan Kayıpları"></item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item android:id="@+id/yanMenuHayvanid" android:title="Hayvan Kayıpları"></item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item android:id="@+id/yanMenuEsyaid" android:title="Eşya Kayıpları"></item>&ndash;&gt;-->
+    <!--<item android:id="@+id/insanKayiplariMenuitemid" android:title="İnsan Kayıpları"></item>-->
+    <!--<item android:id="@+id/hayvanKayiplariMenuitemid" android:title="Hayvan Kayıpları"></item>-->
+    <!--<item android:id="@+id/esyaKayiplariMenuitemid" android:title="Esya Kayıpları"></item>-->
+
+    <!--<item android:id="@+id/ikinciYanMenuİtemid" android:title="Bulunan Ilanları"></item>-->
+    <!--<item android:id="@+id/insanBulunanlariMenuitemid" android:title="İnsan Bulunanları"></item>-->
+    <!--<item android:id="@+id/hayvanBulunanlariMenuitemid" android:title="Hayvan Bulunanları"></item>-->
+    <!--<item android:id="@+id/esyaKBulunanlariMenuitemid" android:title="Esya Bulunanları"></item>-->
+
+    <item android:title="Kayıp İlanları">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/ilkYanMenuİtemid" android:title="Kayıp Ilanları" ></item>
+                <!--<item android:id="@+id/yanMenuinsanid" android:title="İnsan Kayıpları"></item>-->
+                <!--<item android:id="@+id/yanMenuHayvanid" android:title="Hayvan Kayıpları"></item>-->
+                <!--<item android:id="@+id/yanMenuEsyaid" android:title="Eşya Kayıpları"></item>-->
+                <item android:id="@+id/insanKayiplariMenuitemid" android:title="İnsan Kayıpları"></item>
+                <item android:id="@+id/hayvanKayiplariMenuitemid" android:title="Hayvan Kayıpları"></item>
+                <item android:id="@+id/esyaKayiplariMenuitemid" android:title="Esya Kayıpları"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Bulunan İlanları">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/ikinciYanMenuİtemid" android:title="Bulunan Ilanları"></item>
+                <item android:id="@+id/insanBulunanlariMenuitemid" android:title="İnsan Bulunanları"></item>
+                <item android:id="@+id/hayvanBulunanlariMenuitemid" android:title="Hayvan Bulunanları"></item>
+                <item android:id="@+id/esyaKBulunanlariMenuitemid" android:title="Esya Bulunanları"></item>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
